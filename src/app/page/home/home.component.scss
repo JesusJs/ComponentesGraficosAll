@@ -1,0 +1,6 @@
+@import 'global/_variables';
+@import 'mixin/_mixin.scss';
+
+.nav-wrapper-kairos{
+ @include nav-wrapper-kairos();
+}

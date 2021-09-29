@@ -1,0 +1,196 @@
+@import 'mixin/_mixin.scss';
+@import 'global/_variables';
+
+
+.custom-btn{
+  @include btn-kairos();
+  }
+
+  //Status
+  .custom-status {
+      @include custom-status-kairos();
+  }
+  //Btn floating
+  .custom-floating-action {
+      @include btn-kairos-floating();
+  }
+  //Sidebar
+  .custom-sidenav {
+      @include sidebar-kairos();
+  }
+  //Sidecard
+  .custom-sidecard {
+      @include custom-sidecard-kairos();
+  }
+
+
+  //navbar
+  .custom-contentheader {
+      @include navbar-kairos();
+  }
+  //wrapper
+  .custom-content-wrapper-before {
+      @include content-wrapper-kairos();
+  }
+  //cards
+
+
+
+  .card {
+
+      @include radius();
+
+      .card-panel {
+          @include radius();
+      }
+  }
+
+  .custom-card {
+      @include card-kairos();
+  }
+  //Data-table
+
+  .custom-cotent-dataTable {
+      @include custom-datacontent-kairos();
+
+      .custom-datatable {
+          @include custom-datatable-kairos();
+      }
+  }
+
+  .custom-data-system {
+      @include custom-system-data-kairos();
+  }
+  //tabs
+  .custom-tabs {
+      width: 99% !important;
+      @include tabs-kairos();
+  }
+
+  input.custom-input {
+      @include input-close-kairos();
+  }
+
+  input.custom-inputf {
+      @include input-open-kairos();
+  }
+
+  textarea.custom-textarea {
+      @include textarea-kairos();
+  }
+
+  //Btns
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+      -webkit-appearance: button;
+  }
+
+  button:not(:disabled),
+  [type="button"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  [type="submit"]:not(:disabled) {
+      cursor: pointer;
+  }
+
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+      padding: 0;
+      border-style: none;
+  }
+
+
+  .bg-primary {
+      background: $primary;
+
+      &:hover {
+          background: $primary;
+      }
+  }
+
+  .bg-red {
+      background: $red;
+
+      &:hover {
+          background: $red;
+      }
+  }
+
+  .bg-secundary {
+      background: $blue;
+
+      &:hover {
+          background: $blue;
+      }
+  }
+
+
+  .custom-btn {
+      @include btn-kairos();
+  }
+
+  .custom-btnic {
+      @include btnic-kairos();
+  }
+  //Alert
+  .custom-alert {
+      @include alert-kairos();
+  }
+
+  //Checkbox And Switch
+  .custom-swicth {
+      @include switch-kairos();
+  }
+
+
+  .custom-swich-green {
+      @include switch-kairos-green();
+  }
+
+
+
+  .custom-swich-red {
+      @include switch-kairos-red();
+  }
+
+
+
+  .custom-checkbox {
+      @include checkbox-kairos();
+  }
+
+
+  .custom-checkbox-green {
+      @include checkbox-kairos-green();
+  }
+
+  .custom-checkbox-red {
+      @include checkbox-kairos-red();
+  }
+
+  .custom-radio {
+      @include radio-kairos();
+  }
+
+  .custom-radio-green {
+      @include radio-kairos-green();
+  }
+
+  .custom-radio-red {
+      @include radio-kairos-red();
+  }
+  //Selects
+  .custom-select {
+      @include select-kairos();
+  }
+
+  .custom-image-card {
+      @include card-image-kairos();
+  }
+
+
+
+
